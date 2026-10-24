@@ -25,3 +25,18 @@ sudo luarocks install luafilesystem
 
 lua -v
 luarocks --version
+
+# How to Use Kust's Organizer
+
+after install put files in /defaultstore you want to organize in this categories:
+ - Images
+ - Music
+ - Videos
+ - Documents
+if doesnt have in this categories it will be in Downloads
+
+for run use this command in the folder you put the script and defaultstore:
+
+lua kustorganizer.lua
+
+# Ty for Using this script
